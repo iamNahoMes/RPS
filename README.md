@@ -1,1 +1,32 @@
 # RPS
+THIS IS THE "ROCK, PAPER, SCISSORS" GAME, A PROJECT FOR THE ODIN PROJECT
+
+* PHASE 1 *
+
+SIMPLE A CONSOLE PROGRAM WITHOUT THE INTERFACE
+THE IDEA IN MIND IS TO SIMPLY PRINT THE OUTPUT TO THE CONSOLE PROGRAM IN THE CHROME DEV TOOLS
+
+*THE GAME*
+
+step 1
+
+THE GAME STARTS WITH OPTION TO LET THE PLAYER PICK A CHOICE OF WEAPON FOR THE GAME OUT OF THE OPTIONS "rock, paper, and scissors" AND COMPARES IT TO THE CHOICE ON THE COMPUTER'S SIDE WHICH IT RANDOMLY CHOSE AND PRINTING A THE SCORE FOR THE PLAYER AND THE COMPUTER ALONG WITH THE MESSAGE FOR THE OUTCOME OF A SINGLE ROUND.
+    -userInput = prompt(choice);
+    -computerinput = Math.floor(Math.random()*3+1);
+    -then match the random numbers(1,2,3) to the (rock, paper, scissors)
+    -logic for the game + score + the outcome for a single round
+
+step 2
+
+THE GAME IS A TOTAL OF FIVE ROUNDS. THE GAME GOES ON UNTIL A TOTAL NUMBER OF FIVE ROUNDS IS REACHED AND FINALLY CLOSING WITH THE OUTCOME OF THE WHOLE GAME + THE TOTAL SCORE
+    -create a loop for five rounds and call the playRound function five times
+    -print out a message for the final outcome with the total score of the game
+
+
+
+# LANGUAGE USED 
+-JAVASCRIPT
+
+
+
+* PHASE 2 * - INTEGRATE SIMPLE UI
